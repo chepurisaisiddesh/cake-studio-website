@@ -1,0 +1,20 @@
+.nav{
+    text-align: center;
+    background-color: pink
+}
+h1,h3{
+    margin: 0px;
+}
+@media(min-width:500px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+}
